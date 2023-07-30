@@ -12,7 +12,7 @@ const axiosWrapper = {};
 const queryStringBuilder = query => Object.keys(query).length ? '?' + Object.keys(query).map(k => `${k}=${query[k]}`).join('&') : '';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5000'
+  baseURL: 'https://boardcamp-api-h2cx.onrender.com'
 });
 
 for (const method of methods) {

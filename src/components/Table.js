@@ -86,6 +86,7 @@ const StyledTable = styled.table`
   width: 100%;
 
   tr {
+    height: max-content;
     border-bottom: 1px solid #EEE;
 
     &:nth-child(even) {
@@ -109,6 +110,13 @@ const StyledTable = styled.table`
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .05) 2%, rgba(0, 0, 0, .05) 98%, rgba(0, 0, 0, 0) 100%);
       }
     }
+  }
+
+  td{
+    height: max-content;
+    padding: 0px;
+    padding-top: 50px;
+    vertical-align: top;
   }
 
   thead {

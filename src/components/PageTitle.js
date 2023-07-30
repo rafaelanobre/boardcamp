@@ -15,7 +15,7 @@ const Container = styled.div`
   top: 0px;
   background-image: linear-gradient(to right, rgb(72,61,139), rgb(79, 67, 153));
   width: 100%;
-  padding: 120px 20px 0;
+  padding: 60px 20px 0;
   z-index: 2;
 `;
 
